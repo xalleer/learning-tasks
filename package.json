@@ -1,0 +1,13 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "``` svatoslavarosenko@MacBook-Air-Svatoslav Learning % nvm --version 0.40.4 ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.2+sha512.bef43fa759d91fd2da4b319a5a0d13ef7a45bb985a3d7342058470f9d2051a3ba8674e629672654686ef9443ad13a82da2beb9eeb3e0221c87b8154fff9d74b8"
+}
