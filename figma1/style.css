@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, monospace;
+}
+
+body {
+  padding: 48px 96px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 48px;
+}
+
+.left__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.left__hero h1 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #333;
+}
+.left__hero p {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 80%;
+}
+.left__hero button {
+  width: 40%;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.bottom__hero{
+  grid-column: span 2;
+  display: flex;
+  gap: 25px;
+}
+.hero__card--1 {background-color: #F1C2B0;}
+.hero__card--2 {background-color: #F9EB98;}
+.hero__card--3 {background-color: #C0D9DD;}
+.hero__card--4 {background-color: #6975E8;}
+
+.hero__card{
+  padding: 16px 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+.hero__card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+.hero__card-header h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+.hero__card-header p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #333;
+}
